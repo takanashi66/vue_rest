@@ -1,0 +1,313 @@
+html {
+	box-sizing: border-box;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+}
+
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+::before,
+::after {
+	text-decoration: inherit;
+	vertical-align: inherit;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+input,
+select {
+	vertical-align: middle;
+}
+
+input[type="button"],
+input[type="submit"] {
+	-webkit-appearance: none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	color: #000;
+	font-family: Verdana,"游ゴシック","游ゴシック体",YuGothic,"Yu Gothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+	line-height: 1.5;
+	background-color: #fff;
+}
+
+::-moz-selection,
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::-moz-selection,
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+h3 {
+	font-weight: normal;
+}
+
+h4 {
+	font-weight: normal;
+}
+
+h5 {
+	font-weight: normal;
+}
+
+h6 {
+	font-weight: normal;
+}
+
+a:link,
+a:visited,
+a:active {
+	color: red;
+}
+
+button,
+input,
+select,
+textarea {
+	color: #000;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: none;
+}
+
+textarea {
+	resize: vertical;
+}
+
+label,
+input[type=submit] {
+	cursor: pointer;
+}
+
+#app {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#app h1 {
+	font-size: 3rem;
+	margin-bottom: 40px;
+}
+
+#app .item {
+	border: solid 1px #ccc;
+	padding: 20px;
+}
+
+#app .item a:hover {
+	text-decoration: none;
+}
+
+#app .item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+#app .item h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#app .item p {
+	font-size: 1.6rem;
+}
+
+
+/*# sourceMappingURL=../map/style.css.map */

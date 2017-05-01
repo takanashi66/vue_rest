@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+//*------------------------------------*//
+//	Base
+//*------------------------------------*//
+
+@import 'base/reset';
+@import 'base/var';
+@import 'base/default';
+
+
+
+
+
+
+//*------------------------------------*//
+//	page
+//*------------------------------------*//
+#app{
+  width: 600px;
+  margin: 0 auto;
+  
+  h1{
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  
+  .item{
+    border: solid 1px #ccc;
+    padding: 20px;
+    
+    a{
+      &:hover{
+        text-decoration: none;
+      }
+    }
+    
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+    
+    h2{
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    p{
+      font-size: 1.6rem;
+    }
+  }
+}
