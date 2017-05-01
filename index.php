@@ -44,7 +44,7 @@
   
   <script src="https://unpkg.com/vue"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/common/js/script.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/common/js/app.js"></script>
   <?php wp_footer(); ?>
 </body>
 </html>
