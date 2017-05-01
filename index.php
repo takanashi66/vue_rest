@@ -16,9 +16,11 @@
     <h1>記事一覧</h1>
     
     <!-- jsonを整形して出力 -->
+<!--
     <p v-if="posts && posts.length">
       <pre v-for="post of posts"><code>{{post}}</code></pre>
     </p>
+-->
    
     
     <!-- 投稿を出力 -->

@@ -19,6 +19,7 @@ var app = new Vue({
       .catch(e => {
         this.errors.push(e)
       });
+      return 'http://codecodeweb.com/wp-content/themes/newCodeCode/common/img/taku.jpg';
     }
   },
   
