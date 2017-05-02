@@ -28,7 +28,7 @@
       <!-- ここからループ -->
       <div class="item" v-for="post of posts">
         <h2><a v-bind:href="post.link">{{post.title.rendered}}</a></h2>
-          {{post.excerpt.rendered}}
+          {{post.excerpt.rendered | replace}}
       </div>
       <!-- ここまでループ -->
     </div>

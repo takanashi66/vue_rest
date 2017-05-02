@@ -4,8 +4,7 @@ Vue.jsとREST APIを使ってテーマを作る(実験)
 
 ## 概要
 
-Vue.jsでWordPressのREST APIをたたいて、投稿内容をを取得する。
-JSONを取得するのに **[axios](https://github.com/mzabriskie/axios)** を使用。
+Vue.jsでWordPressのREST APIをたたいて、投稿内容をを取得する。JSONを取得するのに **[axios](https://github.com/mzabriskie/axios)** を使用。
 
 
 ## 使い方

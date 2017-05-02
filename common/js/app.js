@@ -19,7 +19,7 @@ var app = new Vue({
         this.errors.push(e)
       });
       return '';
-    }
+    },
   },
 
   //インスタンスが生成されたときに呼び出される
@@ -35,5 +35,11 @@ var app = new Vue({
     });
 
   },
-
+  
+  filters: {
+    replace: function(text) {
+      let replaced = text.replace(/<("[^"]*"|'[^']*'|[^'">])*>/g,'')
+      return replaced;
+    }
+  },
 })
