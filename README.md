@@ -20,7 +20,6 @@ Vue.jsでWordPressのREST APIをたたいて、投稿内容をを取得する。
 そのうち実装するかも。
 
 + サムネイルの出力
-+ pタグの除去
 + カテゴリ
 + タグ
 + single.php
